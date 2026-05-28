@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Phone, Mail, MapPin, Send, CheckCircle, AlertCircle } from 'lucide-react'
-import emailjs from '@emailjs/browser'
 import SEOHead from '../components/SEOHead'
 
 function Contact() {
@@ -22,17 +21,19 @@ function Contact() {
       setLoading(true)
       setStatus(null)
 
-      await emailjs.send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          phone: formData.phone,
-          message: formData.message,
+      const response = await fetch('/api/send', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
         },
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-      )
+        body: JSON.stringify(formData),
+      })
+
+      const data = await response.json()
+
+      if (!data.success) {
+        throw new Error()
+      }
 
       setStatus('success')
 
