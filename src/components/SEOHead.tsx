@@ -24,11 +24,34 @@ export default function SEOHead({
 
   const description = t(descriptionKey)
 
+  const cleanPath = path === "/" ? "" : path
+
   const canonical = `${BASE_URL}${
-    lang !== 'en' ? `/${lang}` : ''
-  }${path}`
+    lang !== "en" ? `/${lang}` : ""
+  }${cleanPath}`
 
   const ogImage = `${BASE_URL}/og-image.jpg`
+  const breadcrumbSchema =
+  path && path !== "/"
+    ? {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: `${BASE_URL}${lang !== "en" ? `/${lang}` : ""}`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: titleKey,
+            item: `${BASE_URL}${lang !== "en" ? `/${lang}` : ""}${path}`,
+          },
+        ],
+      }
+    : null
 
   return (
     <Helmet>
@@ -100,6 +123,8 @@ export default function SEOHead({
         content={ogImage}
       />
 
+      <meta name="robots" content="index, follow" />
+
       {/* hreflang */}
       {LANGUAGES.map((l) => (
         <link
@@ -117,6 +142,14 @@ export default function SEOHead({
         hrefLang="x-default"
         href={`${BASE_URL}${path}`}
       />
+      {breadcrumbSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(breadcrumbSchema),
+          }}
+        />
+      )}
     </Helmet>
   )
 }
