@@ -125,8 +125,13 @@ function DocViz() {
           {/* Scan line */}
           <motion.div
             className="absolute inset-x-0 h-px pointer-events-none"
-            style={{ background: "linear-gradient(90deg, transparent, rgba(59,130,246,0.8), transparent)" }}
-            animate={{ top: ["10%", "90%", "10%"] }}
+            style={{
+              top: "10%",
+              background:
+                "linear-gradient(90deg, transparent, rgba(59,130,246,0.8), transparent)",
+              willChange: "transform",
+            }}
+            animate={{ y: ["0%", "800%", "0%"] }}
             transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut" }}
           />
 
@@ -379,7 +384,7 @@ function OperationPanel({ card, index }: { card: CardDef; index: number }) {
           style={{
             background: "rgba(10,15,30,0.75)",
             border: "1px solid rgba(255,255,255,0.07)",
-            backdropFilter: "blur(28px)",
+            backdropFilter: "blur(12px)",
           }}
         >
           {/* Top accent gradient bar */}
@@ -514,8 +519,13 @@ function BackgroundGrid() {
       {/* Horizontal scan line */}
       <motion.div
         className="absolute inset-x-0 h-px pointer-events-none"
-        style={{ background: "linear-gradient(90deg, transparent 0%, rgba(249,115,22,0.15) 40%, rgba(59,130,246,0.15) 60%, transparent 100%)" }}
-        animate={{ top: ["15%", "85%", "15%"] }}
+        style={{
+          top: "15%",
+          background:
+            "linear-gradient(90deg, transparent 0%, rgba(249,115,22,0.15) 40%, rgba(59,130,246,0.15) 60%, transparent 100%)",
+          willChange: "transform",
+        }}
+        animate={{ y: ["0%", "470%", "0%"] }}
         transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
       />
     </>
@@ -528,17 +538,17 @@ function FloatingOrbs() {
   return (
     <>
       <motion.div className="absolute pointer-events-none rounded-full"
-        style={{ left: "5%", top: "15%", width: 500, height: 500, background: "radial-gradient(circle, rgba(249,115,22,0.055) 0%, transparent 70%)", filter: "blur(60px)" }}
+        style={{ left: "5%", top: "15%", width: 500, height: 500, background: "radial-gradient(circle, rgba(249,115,22,0.055) 0%, transparent 70%)", filter: "blur(30px)" }}
         animate={{ y: [0, -30, 0], scale: [1, 1.05, 1] }}
         transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
       />
       <motion.div className="absolute pointer-events-none rounded-full"
-        style={{ right: "5%", top: "30%", width: 450, height: 450, background: "radial-gradient(circle, rgba(59,130,246,0.06) 0%, transparent 70%)", filter: "blur(60px)" }}
+        style={{ right: "5%", top: "30%", width: 450, height: 450, background: "radial-gradient(circle, rgba(59,130,246,0.06) 0%, transparent 70%)", filter: "blur(30px)" }}
         animate={{ y: [0, 25, 0], scale: [1, 1.08, 1] }}
         transition={{ duration: 11, repeat: Infinity, ease: "easeInOut", delay: 2 }}
       />
       <motion.div className="absolute pointer-events-none rounded-full"
-        style={{ left: "40%", bottom: "10%", width: 400, height: 400, background: "radial-gradient(circle, rgba(139,92,246,0.045) 0%, transparent 70%)", filter: "blur(60px)" }}
+        style={{ left: "40%", bottom: "10%", width: 400, height: 400, background: "radial-gradient(circle, rgba(139,92,246,0.045) 0%, transparent 70%)", filter: "blur(30px)" }}
         animate={{ y: [0, -20, 0] }}
         transition={{ duration: 13, repeat: Infinity, ease: "easeInOut", delay: 4 }}
       />

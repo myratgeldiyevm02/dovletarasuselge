@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import { Truck, Warehouse, FileCheck, Train, Car, ArrowRight, MapPin } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import SEOHead from '../components/SEOHead'
 
 function Services() {
   const { t } = useTranslation()
@@ -60,7 +61,13 @@ function Services() {
   ]
 
   return (
-    <div className="bg-[#0a0f1e]">
+    <>
+      <SEOHead
+        titleKey="seo.services.title"
+        descriptionKey="seo.services.description"
+        path="/services"
+      />
+      <div className="bg-[#0a0f1e]">
 
       {/* Services */}
       <section className="py-24 md:py-32 relative overflow-hidden">
@@ -76,7 +83,7 @@ function Services() {
             transition={{ duration: 0.6 }}
             className="mb-12 text-center"
           >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">{t('services.title')}</h2>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">{t('services.title')}</h1>
             <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">Comprehensive logistics solutions tailored to your business needs</p>
             <div className="mt-4 h-1 w-16 bg-orange-500 rounded-full mx-auto" />
           </motion.div>
@@ -210,6 +217,7 @@ function Services() {
       </section>
 
     </div>
+    </>
   )
 }
 

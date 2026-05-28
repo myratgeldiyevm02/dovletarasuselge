@@ -1,8 +1,9 @@
+import { memo } from 'react'
 import { motion } from 'framer-motion'
 import { Plane, Train, Ship, Warehouse } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
-export default function FloatingCards() {
+const FloatingCards = memo(function FloatingCards() {
   const { t } = useTranslation()
 
   const translations = t('hero.floating_cards', {
@@ -80,4 +81,6 @@ export default function FloatingCards() {
       ))}
     </div>
   )
-}
+})
+
+export default FloatingCards

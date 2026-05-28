@@ -356,5 +356,24 @@
       "russia": "Russiýa",
       "turkey": "Türkiýe",
       "uae": "BAE"
+    },
+
+    "seo": {
+      "home": {
+        "title": "Halkara logistika kompaniýasy",
+        "description": "Merkezi Aziýa, Hytaý, Russiýa we Ýewropa boýunça ygtybarly halkara ýük daşamalary, gümrük resmileşdirmesi we ammar hyzmatlary."
+      },
+      "services": {
+        "title": "Logistika hyzmatlary — Howa, demir ýol, deňiz we gümrük",
+        "description": "Howa ýük daşamalary, demir ýol logistika, deňiz daşamalary, gümrük resmileşdirmesi we 3PL ammar hyzmatlary Döwletara Düşelge tarapyndan."
+      },
+      "about": {
+        "title": "Biz hakda — Döwletara Düşelge Logistics",
+        "description": "Biziň missiýamyz, toparymyz we halkara logistika boýunça 10 ýyldan gowrak tejribämiz bilen tanyşyň."
+      },
+      "contact": {
+        "title": "Biz bilen habarlaşyň — bahalandyrma alyň",
+        "description": "Logistika hünärmenlerimiz bilen habarlaşyň we ýük daşama üçin mugt baha hasaplamasyny alyň."
+      }
     }
 }

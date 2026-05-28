@@ -356,5 +356,24 @@
       "russia": "Russia",
       "turkey": "Turkey",
       "uae": "UAE"
+    },
+
+    "seo": {
+      "home": {
+        "title": "International Logistics Company",
+        "description": "Reliable international freight forwarding, customs clearance and warehousing across Central Asia, China, Russia and Europe. 45+ countries, 10+ years experience."
+      },
+      "services": {
+        "title": "Logistics Services — Air, Rail, Sea & Customs",
+        "description": "Air freight, railway logistics, sea shipping, customs clearance and 3PL warehousing services by Döwletara Düşelge."
+      },
+      "about": {
+        "title": "About Us — Döwletara Düşelge Logistics",
+        "description": "Learn about our mission, team and 10+ years of experience in international freight forwarding across Central Asia."
+      },
+      "contact": {
+        "title": "Contact Us — Get a Freight Quote",
+        "description": "Contact our logistics experts for a free freight quote. Call or email us today."
+      }
     }
 }

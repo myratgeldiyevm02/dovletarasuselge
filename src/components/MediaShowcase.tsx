@@ -3,7 +3,6 @@ import { motion, useInView, AnimatePresence } from 'framer-motion'
 import { Play, Pause, ChevronLeft, ChevronRight, X } from 'lucide-react'
 
 // ─── Stock photo URLs from Unsplash (free, no API needed) ───────────────────
-// ЗАМЕНИ эти URL на свои фото или оставь stock
 const GALLERY_PHOTOS = [
   {
     url: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=800&q=80',
@@ -222,6 +221,7 @@ export default function MediaShowcase() {
             muted
             loop
             playsInline
+            preload="none"
             poster="/images/video-poster.jpg"
             className="w-full aspect-video object-cover"
             style={{ filter: 'brightness(0.75)' }}

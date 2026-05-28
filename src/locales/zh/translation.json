@@ -356,5 +356,24 @@
       "russia": "俄罗斯",
       "turkey": "土耳其",
       "uae": "阿联酋"
+    },
+
+    "seo": {
+      "home": {
+        "title": "国际物流公司",
+        "description": "覆盖中亚、中国、俄罗斯和欧洲的可靠国际货运、清关及仓储服务。"
+      },
+      "services": {
+        "title": "物流服务—空运、铁路、海运与清关",
+        "description": "由 Döwletara Düşelge 提供的空运、铁路物流、海运运输、清关及3PL仓储服务。"
+      },
+      "about": {
+        "title": "关于我们—Döwletara Düşelge Logistics",
+        "description": "了解我们的使命、团队以及超过10年的国际物流经验。"
+      },
+      "contact": {
+        "title": "联系我们—获取报价",
+        "description": "联系物流专家，获取免费的运输费用报价。"
+      }
     }
 }
