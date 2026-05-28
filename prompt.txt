@@ -1,0 +1,36 @@
+obshem wot moy proyekt ya ncinal optimizasiy i sdelal
+
+* ✅ Lazy loading страниц
+* ✅ React.memo в GlobalNetwork
+
+ostalos
+Осталось:
+Перфоманс
+
+* `HeroBackground` — отключить 20 частиц на мобилах (`useMediaQuery`)
+* `prefers-reduced-motion` — глобально отключать анимации
+* Картинки в `MediaShowcase` — добавить `loading="lazy"`
+* Видео — добавить poster + fallback если нет файла
+Бандл
+
+* `vite.config.ts` — настроить `manualChunks` (разбить framer-motion отдельно)
+* Проверить что в `package.json` нет лишних dev зависимостей в dependencies
+Баги
+
+* Добавить `network.hubs.ashgabat` во все 4 JSON файла перевода
+* `MediaShowcase` — захардкоженный английский текст вынести в i18n
+* Удалить мусорный `App.tsx` (он не используется)
+SEO / Production
+
+* `index.html` — добавить meta description, og:title, og:image
+* Favicon нормальный (не дефолтный vite)
+* `.env` файл — убедиться что emailjs ключи не в коде
+* `404` страница
+Code Quality
+
+* Убрать все `console.log` / `console.error` из продакшна
+* `Contact.tsx` — поправить баг с label
+
+
+
+No snacalo ty toze sdelay analiz ya hocu sdelat release nuzna optimizasiya

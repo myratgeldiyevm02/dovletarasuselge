@@ -1,0 +1,360 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "context_title": "International Logistics Company",
+    "context_ministats": [
+      {
+        "value": "15+",
+        "label": "Countries"
+      },
+      {
+        "value": "5K+",
+        "label": "Deliveries"
+      },
+      {
+        "value": "10+",
+        "label": "Years"
+      }
+    ],
+    "floating_cards": [
+    {
+      "label": "Air Freight",
+      "value": "5–7 days"
+    },
+    {
+      "label": "Rail Transport",
+      "value": "12–15 days"
+    },
+    {
+      "label": "Sea Cargo",
+      "value": "20–30 days"
+    },
+    {
+      "label": "Warehouse",
+      "value": "3 facilities"
+    }
+    ],
+    "headline": "Your Reliable Partner in Global Logistics",
+    "subheadline": "International cargo transportation, customs clearance and warehousing across Central Asia and beyond",
+    "cta_primary": "Get a Quote",
+    "cta_secondary": "Our Services"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are an international logistics company providing reliable cargo transportation services across Central Asia, Russia, China and Europe. With years of experience, we deliver excellence in every shipment.",
+    "mission_title": "Our Mission",
+    "mission": "Our mission is to connect businesses across borders with fast, safe and transparent logistics solutions.",
+    "vision_title": "Our Vision",
+    "vision_desc": "To become the leading logistics partner across Central Asia and beyond.",
+    "quality_title": "Our Quality",
+    "quality_desc": "ISO certified processes ensuring the highest standards in every delivery.",
+    "team_title": "Our Team",
+    "team_desc": "Experienced professionals dedicated to your cargo safety and satisfaction.",
+    "years_excellence": "Years of Excellence",
+    "countries": "Countries",
+    "cta_title": "Ready to ship with us?",
+    "cta_desc": "Get a free quote today and experience world-class logistics.",
+    "cta_button": "Get Free Quote",
+    "why_desc": "We combine technology, experience and dedication to deliver excellence",
+    "process_desc": "Simple and transparent process from request to delivery",
+    "global_network": "Global Network",
+    "global_network_desc": "Connected to major logistics hubs across Central Asia, Europe and China.",
+    "cargo_security": "Cargo Security",
+    "cargo_security_desc": "Full insurance coverage and real-time monitoring for every shipment."
+  },
+  "services": {
+    "title": "Our Services",
+    "cargo": "Cargo Transport",
+    "cargo_desc": "International cargo transportation by road, rail and air",
+    "warehouse": "Warehousing",
+    "warehouse_desc": "Secure storage facilities with modern inventory management",
+    "customs": "Customs Clearance",
+    "customs_desc": "Full customs documentation and clearance services",
+    "railway": "Railway Transport",
+    "railway_desc": "Efficient railway logistics across Central Asia and Russia",
+    "road": "Road Transport",
+    "road_desc": "Flexible road freight solutions for any cargo size",
+    "eyebrow": "Platform Capabilities",
+    "title_line1": "Every Mode of",
+    "title_line2": "Global Logistics",
+    "subtitle": "From air freight to bonded warehousing — one intelligent platform orchestrates your entire supply chain with real-time precision.",
+    "cta_primary": "Explore All Services",
+    "cta_secondary": "Talk to a Specialist",
+    "cards": {
+      "air": {
+        "title": "Air Freight",
+        "desc": "Time-critical cargo flown on priority routes with door-to-door tracking and full customs coverage.",
+        "stats": {
+          "routes": "Routes",
+          "delivery": "Delivery"
+        }
+      },
+      "sea": {
+        "title": "Sea Freight",
+        "desc": "Full and less-than-container load shipments across major global trade lanes with optimized transit times.",
+        "stats": {
+          "ports": "Ports",
+          "capacity": "Capacity"
+        }
+      },
+      "rail": {
+        "title": "Rail Freight",
+        "desc": "Trans-continental rail corridors bridging Asia and Europe with reliable block-train schedules.",
+        "stats": {
+          "corridors": "Corridors",
+          "coverage": "Coverage"
+        }
+      },
+      "warehouse": {
+        "title": "Warehousing & 3PL",
+        "desc": "Bonded and customs-cleared storage with automated picking, packing, and last-mile integration.",
+        "stats": {
+          "sqm": "Floor Space",
+          "locations": "Locations"
+        }
+      },
+      "customs": {
+        "title": "Customs Brokerage",
+        "desc": "AI-assisted document processing and expert classification across 90+ regulatory environments.",
+        "stats": {
+          "countries": "Countries",
+          "clearance": "Clearance Rate"
+        }
+      },
+      "analytics": {
+        "title": "Smart Analytics",
+        "desc": "Live shipment intelligence, predictive ETAs, and carbon footprint reporting on a single dashboard.",
+        "stats": {
+          "tracking": "Tracking",
+          "accuracy": "Accuracy"
+        }
+      }
+    },
+    "tags": {
+      "express": "Express",
+      "priority": "Priority",
+      "fcl": "FCL",
+      "lcl": "LCL",
+      "china-europe": "China–Europe",
+      "fast": "Fast",
+      "bonded": "Bonded",
+      "3pl": "3PL",
+      "ai-docs": "AI Docs",
+      "duty": "Duty",
+      "live": "Live",
+      "ai": "AI"
+    },
+    "stats": {
+      "shipments": "Shipments Delivered",
+      "uptime": "Platform Uptime",
+      "delivery": "Avg. Transit",
+      "partners": "Carrier Partners"
+    }
+  },
+  "routes": {
+    "title": "Our Routes",
+    "subtitle": "We operate across key international corridors"
+  },
+  "why": {
+    "title": "Why Choose Us",
+    "reliability": "Reliability",
+    "reliability_desc": "On-time delivery guaranteed with real-time tracking",
+    "speed": "Speed",
+    "speed_desc": "Optimized routes for the fastest delivery times",
+    "support": "24/7 Support",
+    "support_desc": "Our team is always available to assist you",
+    "experience": "Experience",
+    "experience_desc": "Years of expertise in international logistics"
+  },
+  "process": {
+    "title": "How It Works",
+    "step1": "Request",
+    "step1_desc": "Submit your cargo request with details",
+    "step2": "Planning",
+    "step2_desc": "We plan the optimal route and transport",
+    "step3": "Customs",
+    "step3_desc": "We handle all customs documentation",
+    "step4": "Delivery",
+    "step4_desc": "Your cargo is delivered safely on time"
+  },
+  "stats": {
+    "countries": "Countries",
+    "experience": "Years Experience",
+    "deliveries": "Deliveries",
+    "warehouses": "Warehouses"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our logistics experts today",
+    "name": "Your Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Your Message",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "company_desc": "International logistics company providing reliable cargo transportation, customs clearance and warehousing services across Central Asia and beyond.",
+    "rights": "All rights reserved",
+    "links": "Quick Links",
+    "contacts": "Contacts",
+    "address": "Balkan region, Turkmenbashi city, Magtymguly street, 50",
+    "location": "745010"
+  },
+  "network": {
+    "eyebrow": "Global Infrastructure",
+    "title_line1": "One Network.",
+    "title_line2": "Every Corner of Earth.",
+    "subtitle": "48 intelligent logistics hubs woven across 5 continents — unified in a single operating layer that moves cargo with military precision.",
+    "map": {
+      "title": "Live Route Network"
+    },
+    "legend": {
+      "air": "Air",
+      "sea": "Sea",
+      "rail": "Rail"
+    },
+    "kpi": {
+      "hubs": "Active Hubs",
+      "countries": "Countries",
+      "uptime": "Uptime"
+    },
+    "live": {
+      "label": "Live",
+      "event1": "SHG → FRA · Rail manifest confirmed · 42 containers",
+      "event2": "DXB → JNB · Air charter departed · ETA 04:20 UTC",
+      "event3": "SIN → DXB · Sea freight en route · 1,240 TEU",
+      "event4": "NYC → LAX · Priority air cleared customs",
+      "event5": "IST → FRA · Rail block-train on schedule"
+    },
+    "regions": {
+      "label": "By Region",
+      "asia": "Asia Pacific",
+      "europe": "Europe",
+      "americas": "Americas",
+      "middleeast": "Middle East",
+      "africa": "Africa",
+      "centralasia": "Central Asia"
+    },
+    "label": {
+      "shipments": "Shipments / mo",
+      "hubs": "Hubs"
+    },
+    "tier": {
+      "mega": "Mega Hub",
+      "primary": "Primary Hub",
+      "secondary": "Regional Node"
+    },
+    "hubs": {
+      "shanghai": "Shanghai",
+      "dubai": "Dubai",
+      "frankfurt": "Frankfurt",
+      "newyork": "New York",
+      "singapore": "Singapore",
+      "hongkong": "Hong Kong",
+      "istanbul": "Istanbul",
+      "moscow": "Moscow",
+      "losangeles": "Los Angeles",
+      "johannesburg": "Johannesburg",
+      "amsterdam": "Amsterdam",
+      "mumbai": "Mumbai",
+      "tokyo": "Tokyo",
+      "saopaulo": "São Paulo",
+      "cairo": "Cairo",
+      "turkmenbashi": "Türkmenbaşy Porty",
+      "ashgabat": "Ashgabat"
+    },
+    "cta": {
+      "title": "Explore Network Coverage",
+      "subtitle": "Interactive hub & route map"
+    },
+    "feature1": {
+      "title": "Real-Time Visibility",
+      "desc": "Every shipment tracked across all modes with sub-minute status updates."
+    },
+    "feature2": {
+      "title": "Multi-Modal Routing",
+      "desc": "AI selects the optimal combination of air, sea, and rail for each shipment."
+    },
+    "feature3": {
+      "title": "Predictive Intelligence",
+      "desc": "Machine learning models anticipate disruptions before they affect your cargo."
+    }
+  },
+  "operations": {
+      "eyebrow": "Operational Excellence",
+      "title": "Built for Precision Logistics.",
+      "subtitle": "Advanced infrastructure, intelligent routing, and real-time operational control across every shipment.",
+      "explore": "Explore",
+      "card1": {
+        "title": "Real-Time Visibility",
+        "desc": "Every shipment monitored with live operational tracking and sub-minute status updates across all transport modes.",
+        "status": "Live",
+        "metric1": {
+          "label": "Update Interval",
+          "value": "< 60s"
+        },
+        "metric2": {
+          "label": "Active Shipments",
+          "value": "12,400+"
+        }
+      },
+      "card2": {
+        "title": "Customs & Compliance",
+        "desc": "Cross-border documentation, customs workflows, and cargo verification handled with precision and speed.",
+        "status": "Verified",
+        "metric1": {
+          "label": "Clearance Rate",
+          "value": "99.8%"
+        },
+        "metric2": {
+          "label": "Jurisdictions",
+          "value": "90+"
+        }
+      },
+      "card3": {
+        "title": "Multi-Modal Infrastructure",
+        "desc": "Air, rail, sea, and road freight integrated into one intelligent logistics ecosystem.",
+        "status": "Synced",
+        "metric1": {
+          "label": "Transport Modes",
+          "value": "4"
+        },
+        "metric2": {
+          "label": "Active Routes",
+          "value": "840+"
+        }
+      },
+      "cta": {
+        "title": "Ready to streamline your logistics operations?",
+        "subtitle": "Talk to our team and get a custom infrastructure plan.",
+        "primary": "Request a Demo",
+        "secondary": "Learn More"
+      }
+    },
+    "corridors": {
+      "title": "Main Corridors",
+      "railway_road": "Railway + Road",
+      "road_railway": "Road + Railway",
+      "road_transport": "Road Transport",
+      "air_road": "Air + Road",
+      "days_12_15": "12-15 days",
+      "days_7_10": "7-10 days",
+      "days_10_14": "10-14 days",
+      "days_5_7": "5-7 days"
+    },
+
+    "countries": {
+      "turkmenistan": "Turkmenistan",
+      "china": "China",
+      "russia": "Russia",
+      "turkey": "Turkey",
+      "uae": "UAE"
+    }
+}

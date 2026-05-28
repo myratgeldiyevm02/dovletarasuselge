@@ -1,0 +1,360 @@
+{
+  "nav": {
+    "home": "Baş sahypa",
+    "about": "Biz hakda",
+    "services": "Hyzmatlar",
+    "contact": "Habarlaşmak"
+  },
+  "hero": {
+    "context_title": "Halkara Logistika Kompaniýasy",
+    "context_ministats": [
+    {
+    "value": "15+",
+    "label": "Ýurt"
+    },
+    {
+    "value": "5K+",
+    "label": "Eltip Beriş"
+    },
+    {
+    "value": "10+",
+    "label": "Ýyl"
+    }
+    ],
+    "floating_cards": [
+      {
+        "label": "Howa Gatnawy",
+        "value": "5–7 gün"
+      },
+      {
+        "label": "Demirýol Gatnawy",
+        "value": "12–15 gün"
+      },
+      {
+        "label": "Deňiz Ýükleri",
+        "value": "20–30 gün"
+      },
+      {
+        "label": "Ammar",
+        "value": "3 merkez"
+      }
+    ],
+    "headline": "Global Logistikada Ygtybarly Hyzmatdaşyňyz",
+    "subheadline": "Merkezi Aziýa we onuň çäklerinden daşarda halkara ýük daşamak, gümrük resmileşdirmek we ammarlama",
+    "cta_primary": "Baha Al",
+    "cta_secondary": "Hyzmatlarymyz"
+  },
+  "about": {
+    "title": "Biz Hakda",
+    "description": "Biz Merkezi Aziýa, Russiýa, Hytaý we Ýewropa boýunça ygtybarly ýük daşamak hyzmatlaryny hödürleýän halkara logistika kompaniýasydyrys.",
+    "mission_title": "Biziň Maksadymyz",
+    "mission": "Biziň maksadymyz - çalt, howpsuz we aç-açan logistika çözgütleri bilen işletmeleri serhetleriň aňyrsynda birleşdirmekdir.",
+    "vision_title": "Biziň Görüşimiz",
+    "vision_desc": "Merkezi Aziýada we onuň daşynda öňdebaryjy logistika hyzmatdaşy bolmak.",
+    "quality_title": "Biziň Hilimiz",
+    "quality_desc": "ISO standartlaryna laýyk gelýän prosesler arkaly ýokary hilli hyzmat üpjün edýäris.",
+    "team_title": "Biziň Toparymyz",
+    "team_desc": "Ýükleriňiziň howpsuzlygy we müşderi kanagatlylygy üçin işleýän tejribeli hünärmenler.",
+    "years_excellence": "Üstünlik ýyllary",
+    "countries": "Ýurt",
+    "cta_title": "Ýüküňizi biziň bilen ugratmaga taýynmy?",
+    "cta_desc": "Şu gün mugt baha alyň we dünýä derejesindäki logistika hyzmatlaryny synap görüň.",
+    "cta_button": "Mugt baha al",
+    "why_desc": "Biz tehnologiýany, tejribäni we jogapkärçiligi birleşdirip ýokary hyzmat hödürleýäris",
+    "process_desc": "Sargytdan eltilişe çenli ýönekeý we aç-açan proses",
+    "global_network": "Global Tor",
+    "global_network_desc": "Merkezi Aziýa, Ýewropa we Hytaý boýunça esasy logistika merkezleri bilen baglanyşyk.",
+    "cargo_security": "Ýük Howpsuzlygy",
+    "cargo_security_desc": "Her bir ýük üçin doly ätiýaçlandyryş we real wagt gözegçiligi."
+  },
+  "services": {
+    "title": "Hyzmatlarymyz",
+    "cargo": "Ýük Daşamak",
+    "cargo_desc": "Awtomobil, demir ýol we howa arkaly halkara ýük daşamak",
+    "warehouse": "Ammarlama",
+    "warehouse_desc": "Döwrebap inwentar dolandyryşy bilen ygtybarly ammar desgalary",
+    "customs": "Gümrük Resmileşdirmek",
+    "customs_desc": "Doly gümrük resminamalary we resmileşdiriş hyzmatlary",
+    "railway": "Demir Ýol Daşamagy",
+    "railway_desc": "Merkezi Aziýa we Russiýa boýunça netijelı demir ýol logistikasy",
+    "road": "Awtomobil Daşamagy",
+    "road_desc": "Islendik ýük möçberi üçin çeýe awtomobil ýük çözgütleri",
+    "eyebrow": "Platformanyň mümkinçilikleri",
+    "title_line1": "Global logistikanyň",
+    "title_line2": "her bir görnüşi",
+    "subtitle": "Howa ýükünden gümrük ammarlaryna çenli — bir akylly platforma tutuş üpjünçilik zynjyryňyzy hakyky wagtda dolandyrýar.",
+    "cta_primary": "Ähli hyzmatlary görmek",
+    "cta_secondary": "Hünärmen bilen habarlaşmak",
+    "cards": {
+      "air": {
+        "title": "Howa ýük daşamak",
+        "desc": "Wagt talap edýän ýükler ileri tutulýan marşrutlar bilen gapydan gapa yzarlamak we doly gümrük hyzmatynyň üsti bilen eltilýär.",
+        "stats": {
+          "routes": "Marşrutlar",
+          "delivery": "Eltip bermek"
+        }
+      },
+      "sea": {
+        "title": "Deňiz ýük daşamak",
+        "desc": "Esasy global söwda ýollarynda optimizirilen üstaşyr wagtlary bilen FCL we LCL iberişleri.",
+        "stats": {
+          "ports": "Portlar",
+          "capacity": "Kuwwat"
+        }
+      },
+      "rail": {
+        "title": "Demir ýol daşamak",
+        "desc": "Ygtybarly blok-otly tertipleri bilen Aziýa we Ýewropany baglanyşdyrýan transmaterikleri demir ýol geçelgeleri.",
+        "stats": {
+          "corridors": "Geçelgeler",
+          "coverage": "Gurşaw"
+        }
+      },
+      "warehouse": {
+        "title": "Ammar we 3PL",
+        "desc": "Awtomatlaşdyrylan saýlamak, gaplamak we soňky mil integrasiýasy bilen gümrük we bagly ammarlary.",
+        "stats": {
+          "sqm": "Meýdan",
+          "locations": "Ýerler"
+        }
+      },
+      "customs": {
+        "title": "Gümrük brokerlik",
+        "desc": "90+ kadalaşdyryjy gurşawyň arasynda ýasama intellekt kömegi bilen resminamalary işlemek.",
+        "stats": {
+          "countries": "Ýurtlar",
+          "clearance": "Resmileşdirmek"
+        }
+      },
+      "analytics": {
+        "title": "Akylly analitika",
+        "desc": "Bir panelde janly ýük aňtaýyşy, öňdengörüji ETA we uglerod yz hasabatlary.",
+        "stats": {
+          "tracking": "Yzarlamak",
+          "accuracy": "Takyklyk"
+        }
+      }
+    },
+    "tags": {
+      "express": "Ekspress",
+      "priority": "Ileri",
+      "fcl": "FCL",
+      "lcl": "LCL",
+      "china-europe": "Hytaý–Ýewropa",
+      "fast": "Çalt",
+      "bonded": "Bagly",
+      "3pl": "3PL",
+      "ai-docs": "AI Resminam.",
+      "duty": "Gümrük",
+      "live": "Janly",
+      "ai": "AI"
+    },
+    "stats": {
+      "shipments": "Eltilen ýükler",
+      "uptime": "Platformanyň işleýşi",
+      "delivery": "Ort. üstaşyr",
+      "partners": "Daşaýjy hyzmatdaşlar"
+    }
+  },
+  "routes": {
+    "title": "Ugurlarymyz",
+    "subtitle": "Biz esasy halkara geçelgelerinde işleýäris"
+  },
+  "why": {
+    "title": "Näme Üçin Bizi Saýlamaly",
+    "reliability": "Ygtybarlylyk",
+    "reliability_desc": "Hakyky wagtda yzarlamak bilen wagtynda eltip bermek kepillendirilýär",
+    "speed": "Tizlik",
+    "speed_desc": "Iň çalt eltip beriş wagtlary üçin optimizirlen ugurlar",
+    "support": "7/24 Goldaw",
+    "support_desc": "Toparymyz size kömek etmäge hemişe taýýar",
+    "experience": "Tejribe",
+    "experience_desc": "Halkara logistikasyndaky ýyllaryň tejribesi"
+  },
+  "process": {
+    "title": "Nähili Işleýär",
+    "step1": "Haýyş",
+    "step1_desc": "Jikme-jiklikleri bilen ýük haýyşyňyzy iberiň",
+    "step2": "Meýilleşdirmek",
+    "step2_desc": "Optimal ugry we ulagy meýilleşdirýäris",
+    "step3": "Gümrük",
+    "step3_desc": "Ähli gümrük resminamalaryny dolandyrýarys",
+    "step4": "Eltip Bermek",
+    "step4_desc": "Ýüküňiz wagtynda howpsuz eltilýär"
+  },
+  "stats": {
+    "countries": "Ýurtlar",
+    "experience": "Ýyl Tejribe",
+    "deliveries": "Eltip Bermeler",
+    "warehouses": "Ammarlar"
+  },
+  "contact": {
+    "title": "Biz Bilen Habarlaşyň",
+    "subtitle": "Logistika hünärmenlerimiz bilen şu gün habarlaşyň.",
+    "name": "Adyňyz",
+    "email": "E-poçta Salgynyz",
+    "phone": "Telefon Belgiňiz",
+    "message": "Hatyňyz",
+    "send": "Hat Iberiň",
+    "success": "Hat üstünlikli iberildi!",
+    "error": "Bir zat ýalňyş gitdi. Gaýtadan synanyşyň."
+  },
+  "footer": {
+    "company_desc": "Merkezi Aziýa we ondan daşary ýurtlara ygtybarly ýük daşama, gümrük räsminamasy we ammar hyzmatlaryny hödürleýän halkara logistika kompaniýasy.",
+    "rights": "Ähli hukuklar goralan",
+    "links": "Çalt Baglanyşyklar",
+    "contacts": "Habarlaşmak",
+    "address": "Balkan w., Türkmenbaşy ş., Magtymguly köçesi 50-nji jaý",
+    "location": "745010"
+  },
+  "network": {
+    "eyebrow": "Global infrastruktura",
+    "title_line1": "Bir tor.",
+    "title_line2": "Dünýäniň her nokady.",
+    "subtitle": "5 kontinente birleşdirilen 48 akylly logistika merkezi — ýükleri ýokary takyklyk bilen dolandyrýan bitewi ulgam.",
+    "map": {
+      "title": "Göni marşrut torunyň kartasy"
+    },
+    "legend": {
+      "air": "Howa",
+      "sea": "Deňiz",
+      "rail": "Demir ýol"
+    },
+    "kpi": {
+      "hubs": "Işjeň merkezler",
+      "countries": "Ýurtlar",
+      "uptime": "Durnuklylyk"
+    },
+    "live": {
+      "label": "Live",
+      "event1": "SHG → FRA · Demir ýol manifesti tassyklandy · 42 konteýner",
+      "event2": "DXB → JNB · Howa çarteri ugrady · ETA 04:20 UTC",
+      "event3": "SIN → DXB · Deňiz ýüki ýolda · 1 240 TEU",
+      "event4": "NYC → LAX · Tiz howa ýüki gümrükden geçdi",
+      "event5": "IST → FRA · Blok-poýezd tertip boýunça hereket edýär"
+    },
+    "regions": {
+      "label": "Regionlar boýunça",
+      "asia": "Aziýa-Pacific",
+      "europe": "Ýewropa",
+      "americas": "Amerika",
+      "middleeast": "Ýakyn Gündogar",
+      "africa": "Afrika",
+      "centralasia": "Merkezi Aziýa"
+    },
+    "label": {
+      "shipments": "Ugratmalar / aý",
+      "hubs": "Merkezler"
+    },
+    "tier": {
+      "mega": "Mega Merkez",
+      "primary": "Esasy Merkez",
+      "secondary": "Regional Dügün"
+    },
+    "hubs": {
+      "shanghai": "Şanhaý",
+      "dubai": "Dubai",
+      "frankfurt": "Frankfurt",
+      "newyork": "Nýu-Ýork",
+      "singapore": "Singapur",
+      "hongkong": "Gonkong",
+      "istanbul": "Stambul",
+      "moscow": "Moskwa",
+      "losangeles": "Los-Anjeles",
+      "johannesburg": "Johannesburg",
+      "amsterdam": "Amsterdam",
+      "mumbai": "Mumbaý",
+      "tokyo": "Tokio",
+      "saopaulo": "San-Paulu",
+      "cairo": "Kair",
+      "turkmenbashi": "Türkmenbaşy porty",
+      "ashgabat": "Aşgabat"
+    },
+    "cta": {
+      "title": "Tor örtügini öwreniň",
+      "subtitle": "Interaktiw merkez we marşrut kartasy"
+    },
+    "feature1": {
+      "title": "Hakyky wagt gözegçiligi",
+      "desc": "Ähli ýükler minutlaýyn täzelenýän status bilen yzarlanýar."
+    },
+    "feature2": {
+      "title": "Köp görnüşli marşrutlar",
+      "desc": "AI her ýük üçin howa, deňiz we demir ýol ugurlarynyň iň gowy kombinasiýasyny saýlaýar."
+    },
+    "feature3": {
+      "title": "Öňünden çaklaýyş analitikasy",
+      "desc": "Machine learning ulgamy problemalary ýük täsir etmezden öň kesgitleýär."
+    }
+  },
+  "operations": {
+      "eyebrow": "Operasion Kämillik",
+      "title": "Takyk logistika üçin döredildi.",
+      "subtitle": "Her iberişde öňdebaryjy infrastruktura, akylly ugurlandyrmak we hakyky wagtda operasion gözegçilik.",
+      "explore": "Öwren",
+      "card1": {
+        "title": "Hakyky Wagtda Görünüş",
+        "desc": "Her iberişi ähli ulag görnüşleri boýunça bir minutdan az wagtda ýagdaý täzelenmesi bilen janly yzarlaň.",
+        "status": "Janly",
+        "metric1": {
+          "label": "Täzelenme aralygy",
+          "value": "< 60s"
+        },
+        "metric2": {
+          "label": "Işjeň iberişler",
+          "value": "12,400+"
+        }
+      },
+      "card2": {
+        "title": "Gümrük we Laýyklyk",
+        "desc": "Serhetara resminamalar, gümrük iş akymlary we ýük barlagy takyklyk we çaltlyk bilen amala aşyrylýar.",
+        "status": "Tassyklandy",
+        "metric1": {
+          "label": "Resmileşdirme",
+          "value": "99.8%"
+        },
+        "metric2": {
+          "label": "Ygtyýarlylygylar",
+          "value": "90+"
+        }
+      },
+      "card3": {
+        "title": "Köp Usully Infrastruktura",
+        "desc": "Howa, demir ýol, deňiz we awtomobil ýükleri bir akylly logistika ekosistemasynda birleşdirildi.",
+        "status": "Sinhronlady",
+        "metric1": {
+          "label": "Ulag görnüşleri",
+          "value": "4"
+        },
+        "metric2": {
+          "label": "Işjeň marşrutlar",
+          "value": "840+"
+        }
+      },
+      "cta": {
+        "title": "Logistika amallaryňyzy çaltlaşdyrmaga taýynmy?",
+        "subtitle": "Toparymyz bilen habarlaşyň we özbaşdak infrastruktura meýilnamasyny alyň.",
+        "primary": "Demo soraň",
+        "secondary": "Köpräk öwren"
+      }
+    },
+    "corridors": {
+      "title": "Esasy ugurlar",
+      "railway_road": "Demir ýol + Awtoulag",
+      "road_railway": "Awtoulag + Demir ýol",
+      "road_transport": "Awtoulag daşamasy",
+      "air_road": "Howa + Awtoulag",
+      "days_12_15": "12-15 gün",
+      "days_7_10": "7-10 gün",
+      "days_10_14": "10-14 gün",
+      "days_5_7": "5-7 gün"
+    },
+
+    "countries": {
+      "turkmenistan": "Türkmenistan",
+      "china": "Hytaý",
+      "russia": "Russiýa",
+      "turkey": "Türkiýe",
+      "uae": "BAE"
+    }
+}

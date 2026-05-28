@@ -1,0 +1,360 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "context_title": "国际物流公司",
+    "context_ministats": [
+    {
+    "value": "15+",
+    "label": "国家"
+    },
+    {
+    "value": "5K+",
+    "label": "配送"
+    },
+    {
+    "value": "10+",
+    "label": "年"
+    }
+    ],
+    "floating_cards": [
+      {
+        "label": "空运",
+        "value": "5–7 天"
+      },
+      {
+        "label": "铁路运输",
+        "value": "12–15 天"
+      },
+      {
+        "label": "海运",
+        "value": "20–30 天"
+      },
+      {
+        "label": "仓库",
+        "value": "3 个设施"
+      }
+    ],
+    "headline": "您在全球物流中的可靠合作伙伴",
+    "subheadline": "中亚及更广地区的国际货物运输、清关和仓储服务",
+    "cta_primary": "获取报价",
+    "cta_secondary": "我们的服务"
+  },
+  "about": {
+    "title": "关于我们",
+    "description": "我们是一家国际物流公司，为中亚、俄罗斯、中国和欧洲提供可靠的货物运输服务。凭借多年的经验，我们在每次货运中都提供卓越的服务。",
+    "mission_title": "我们的使命",
+    "mission": "我们的使命是通过快速、安全和透明的物流解决方案连接跨境业务。",
+    "vision_title": "我们的愿景",
+    "vision_desc": "成为中亚及其他地区领先的物流合作伙伴。",
+    "quality_title": "我们的质量",
+    "quality_desc": "通过 ISO 认证流程确保每一次运输都达到最高标准。",
+    "team_title": "我们的团队",
+    "team_desc": "经验丰富的专业团队致力于保障您的货物安全与满意度。",
+    "years_excellence": "卓越服务年数",
+    "countries": "国家",
+    "cta_title": "准备与我们一起发货了吗？",
+    "cta_desc": "立即获取免费报价，体验世界级物流服务。",
+    "cta_button": "获取免费报价",
+    "why_desc": "我们结合技术、经验与责任感，为您提供卓越服务",
+    "process_desc": "从申请到交付的简单透明流程",
+    "global_network": "全球网络",
+    "global_network_desc": "连接中亚、欧洲和中国的主要物流枢纽。",
+    "cargo_security": "货物安全",
+    "cargo_security_desc": "每批货物均享有全面保险和实时监控。"
+  },
+  "services": {
+    "title": "我们的服务",
+    "cargo": "货物运输",
+    "cargo_desc": "通过公路、铁路和航空进行国际货物运输",
+    "warehouse": "仓储服务",
+    "warehouse_desc": "配备现代库存管理系统的安全仓储设施",
+    "customs": "清关服务",
+    "customs_desc": "完整的海关文件和清关服务",
+    "railway": "铁路运输",
+    "railway_desc": "中亚和俄罗斯高效的铁路物流",
+    "road": "公路运输",
+    "road_desc": "适用于任何货物规模的灵活公路货运解决方案",
+    "eyebrow": "平台核心能力",
+    "title_line1": "覆盖每一种",
+    "title_line2": "全球物流方式",
+    "subtitle": "从空运到保税仓储，一个智能平台实时统筹您的全链路供应链，精准高效。",
+    "cta_primary": "探索全部服务",
+    "cta_secondary": "联系专业顾问",
+    "cards": {
+      "air": {
+        "title": "空运服务",
+        "desc": "时效紧迫货物通过优先航线运输，提供门到门追踪与全程清关支持。",
+        "stats": {
+          "routes": "航线",
+          "delivery": "时效"
+        }
+      },
+      "sea": {
+        "title": "海运服务",
+        "desc": "覆盖全球主要贸易航线的整箱与拼箱运输，优化中转时效。",
+        "stats": {
+          "ports": "港口",
+          "capacity": "运力"
+        }
+      },
+      "rail": {
+        "title": "铁路运输",
+        "desc": "连接亚欧大陆的铁路干线走廊，班列时刻稳定可靠。",
+        "stats": {
+          "corridors": "走廊",
+          "coverage": "覆盖范围"
+        }
+      },
+      "warehouse": {
+        "title": "仓储与三方物流",
+        "desc": "保税与清关仓库，配备自动化拣货、包装及末端配送整合。",
+        "stats": {
+          "sqm": "仓储面积",
+          "locations": "仓库数量"
+        }
+      },
+      "customs": {
+        "title": "报关服务",
+        "desc": "AI辅助单证处理与专业归类，覆盖90余个国家/地区的监管环境。",
+        "stats": {
+          "countries": "覆盖国家",
+          "clearance": "清关率"
+        }
+      },
+      "analytics": {
+        "title": "智能数据分析",
+        "desc": "在统一看板上查看实时货物动态、预测到港时间及碳排放报告。",
+        "stats": {
+          "tracking": "实时追踪",
+          "accuracy": "准确率"
+        }
+      }
+    },
+    "tags": {
+      "express": "急件",
+      "priority": "优先",
+      "fcl": "整箱",
+      "lcl": "拼箱",
+      "china-europe": "中欧班列",
+      "fast": "快速",
+      "bonded": "保税",
+      "3pl": "三方",
+      "ai-docs": "AI单证",
+      "duty": "关税",
+      "live": "实时",
+      "ai": "AI"
+    },
+    "stats": {
+      "shipments": "累计货运量",
+      "uptime": "平台可用率",
+      "delivery": "平均中转",
+      "partners": "承运商伙伴"
+    }
+  },
+  "routes": {
+    "title": "我们的路线",
+    "subtitle": "我们在主要国际走廊运营"
+  },
+  "why": {
+    "title": "为什么选择我们",
+    "reliability": "可靠性",
+    "reliability_desc": "通过实时跟踪保证准时交货",
+    "speed": "速度",
+    "speed_desc": "优化路线以实现最快的交货时间",
+    "support": "全天候支持",
+    "support_desc": "我们的团队随时准备为您提供帮助",
+    "experience": "经验",
+    "experience_desc": "多年的国际物流专业知识"
+  },
+  "process": {
+    "title": "工作流程",
+    "step1": "申请",
+    "step1_desc": "提交详细的货物申请",
+    "step2": "规划",
+    "step2_desc": "我们规划最优路线和运输方式",
+    "step3": "清关",
+    "step3_desc": "我们处理所有海关文件",
+    "step4": "交货",
+    "step4_desc": "您的货物安全准时送达"
+  },
+  "stats": {
+    "countries": "国家",
+    "experience": "年经验",
+    "deliveries": "货物配送",
+    "warehouses": "仓库"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "立即联系我们的物流专家。",
+    "name": "您的姓名",
+    "email": "电子邮件地址",
+    "phone": "电话号码",
+    "message": "您的留言",
+    "send": "发送消息",
+    "success": "消息发送成功！",
+    "error": "出现问题，请重试。"
+  },
+  "footer": {
+    "company_desc": "国际物流公司，在中亚及其他地区提供可靠的货物运输、清关和仓储服务。",
+    "rights": "保留所有权利",
+    "links": "快速链接",
+    "contacts": "联系方式",
+    "address": "巴尔坎州, 土库曼巴希市, 马赫图姆库里路, 50号",
+    "location": "745010"
+  },
+  "network": {
+    "eyebrow": "全球基础设施",
+    "title_line1": "一个网络。",
+    "title_line2": "覆盖世界每个角落。",
+    "subtitle": "48个智能物流枢纽覆盖五大洲，通过统一运营系统实现高精度货运管理。",
+    "map": {
+      "title": "实时物流路线网络"
+    },
+    "legend": {
+      "air": "空运",
+      "sea": "海运",
+      "rail": "铁路"
+    },
+    "kpi": {
+      "hubs": "活跃枢纽",
+      "countries": "国家",
+      "uptime": "系统稳定性"
+    },
+    "live": {
+      "label": "实时",
+      "event1": "SHG → FRA · 铁路货运清单已确认 · 42个集装箱",
+      "event2": "DXB → JNB · 包机已起飞 · ETA 04:20 UTC",
+      "event3": "SIN → DXB · 海运途中 · 1,240 TEU",
+      "event4": "NYC → LAX · 优先空运已完成清关",
+      "event5": "IST → FRA · 集装箱列车按计划运行"
+    },
+    "regions": {
+      "label": "按地区",
+      "asia": "亚太地区",
+      "europe": "欧洲",
+      "americas": "美洲",
+      "middleeast": "中东",
+      "africa": "非洲",
+      "centralasia": "中亚"
+    },
+    "label": {
+      "shipments": "每月货运量",
+      "hubs": "枢纽"
+    },
+    "tier": {
+      "mega": "超级枢纽",
+      "primary": "主要枢纽",
+      "secondary": "区域节点"
+    },
+    "hubs": {
+      "shanghai": "上海",
+      "dubai": "迪拜",
+      "frankfurt": "法兰克福",
+      "newyork": "纽约",
+      "singapore": "新加坡",
+      "hongkong": "香港",
+      "istanbul": "伊斯坦布尔",
+      "moscow": "莫斯科",
+      "losangeles": "洛杉矶",
+      "johannesburg": "约翰内斯堡",
+      "amsterdam": "阿姆斯特丹",
+      "mumbai": "孟买",
+      "tokyo": "东京",
+      "saopaulo": "圣保罗",
+      "cairo": "开罗",
+      "turkmenbashi": "土库曼巴希港",
+      "ashgabat": "阿什哈巴德"
+    },
+    "cta": {
+      "title": "探索网络覆盖范围",
+      "subtitle": "交互式枢纽与路线地图"
+    },
+    "feature1": {
+      "title": "实时可视化",
+      "desc": "所有货运均可跨运输方式实时追踪，状态分钟级更新。"
+    },
+    "feature2": {
+      "title": "多式联运路线",
+      "desc": "AI自动选择空运、海运和铁路运输的最佳组合。"
+    },
+    "feature3": {
+      "title": "预测智能",
+      "desc": "机器学习模型可在问题影响货物之前提前预测风险。"
+    }
+  },
+  "operations": {
+      "eyebrow": "卓越运营",
+      "title": "专为精准物流而生。",
+      "subtitle": "先进基础设施、智能路由与实时运营管控，覆盖每一票货物的全流程。",
+      "explore": "了解更多",
+      "card1": {
+        "title": "实时可视化",
+        "desc": "跨所有运输方式，以不超过一分钟的频率实时追踪每票货物的运营状态。",
+        "status": "实时",
+        "metric1": {
+          "label": "更新间隔",
+          "value": "< 60秒"
+        },
+        "metric2": {
+          "label": "在途货物",
+          "value": "12,400+"
+        }
+      },
+      "card2": {
+        "title": "清关与合规",
+        "desc": "跨境单证处理、清关作业流程与货物核验，精准高效，一站式完成。",
+        "status": "已验证",
+        "metric1": {
+          "label": "清关率",
+          "value": "99.8%"
+        },
+        "metric2": {
+          "label": "覆盖司法管辖区",
+          "value": "90+"
+        }
+      },
+      "card3": {
+        "title": "多式联运基础设施",
+        "desc": "空运、铁路、海运与公路货运，融合于一个智能物流生态系统。",
+        "status": "已同步",
+        "metric1": {
+          "label": "运输方式",
+          "value": "4种"
+        },
+        "metric2": {
+          "label": "活跃航线",
+          "value": "840+"
+        }
+      },
+      "cta": {
+        "title": "准备好优化您的物流运营了吗？",
+        "subtitle": "联系我们的团队，获取定制化基础设施方案。",
+        "primary": "申请演示",
+        "secondary": "了解详情"
+      }
+    },
+    "corridors": {
+      "title": "主要运输路线",
+      "railway_road": "铁路 + 公路",
+      "road_railway": "公路 + 铁路",
+      "road_transport": "公路运输",
+      "air_road": "空运 + 公路",
+      "days_12_15": "12-15 天",
+      "days_7_10": "7-10 天",
+      "days_10_14": "10-14 天",
+      "days_5_7": "5-7 天"
+    },
+
+    "countries": {
+      "turkmenistan": "土库曼斯坦",
+      "china": "中国",
+      "russia": "俄罗斯",
+      "turkey": "土耳其",
+      "uae": "阿联酋"
+    }
+}
