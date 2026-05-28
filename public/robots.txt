@@ -2,6 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.dovletaraduselge.com.tm/sitemap.xml
-Sitemap: https://www.dovletaraduselge.com.tm/sitemap-ru.xml
-Sitemap: https://www.dovletaraduselge.com.tm/sitemap-zh.xml
-Sitemap: https://www.dovletaraduselge.com.tm/sitemap-tk.xml
