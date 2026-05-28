@@ -10,7 +10,7 @@ const NotFound = lazy(() => import("../pages/NotFound"))
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/:lang?",
     element: (
       <Suspense fallback={<div className="min-h-screen bg-[#0a0f1e]" />}>
         <MainLayout />
@@ -18,9 +18,11 @@ export const router = createBrowserRouter([
     ),
     children: [
       { index: true, element: <Home /> },
+
       { path: "about", element: <About /> },
       { path: "contact", element: <Contact /> },
       { path: "services", element: <Services /> },
+
       { path: "*", element: <NotFound /> },
     ],
   },

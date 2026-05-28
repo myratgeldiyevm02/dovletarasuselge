@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation, useParams } from 'react-router-dom'
 import Logo from '../assets/logo.svg'
 
 const languages = [
@@ -25,6 +25,19 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   const [langOpen, setLangOpen] = useState(false)
 
+  const location = useLocation()
+    const { lang } = useParams()
+
+    const currentLang = lang || 'en'
+
+    const localizedPath = (path: string) => {
+      if (currentLang === 'en') {
+        return path
+      }
+
+      return `/${currentLang}${path}`
+    }
+
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50)
     window.addEventListener('scroll', handleScroll)
@@ -32,7 +45,20 @@ const Navbar = () => {
   }, [])
 
   const handleLangChange = (code: string) => {
-    i18n.changeLanguage(code)
+    const currentPath = location.pathname
+
+    const pathWithoutLang = currentPath.replace(
+      /^\/(en|ru|zh|tk)/,
+      ''
+    ) || '/'
+
+    const newPath =
+      code === 'en'
+        ? pathWithoutLang
+        : `/${code}${pathWithoutLang}`
+
+    window.location.href = newPath
+
     setLangOpen(false)
     setMenuOpen(false)
   }
@@ -56,7 +82,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.02 }}
             transition={{ type: "spring", stiffness: 400, damping: 25 }}
           >
-            <Link to="/" className="flex items-center">
+            <Link to={localizedPath('/')} className="flex items-center">
               <img
                 src={Logo}
                 alt="DöwletAra Logo"
@@ -71,7 +97,7 @@ const Navbar = () => {
             {navLinks.map((link) => (
               <Link
                 key={link.key}
-                to={link.to}
+                to={localizedPath(link.to)}
                 className="text-slate-300 hover:text-orange-500 px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-lg hover:bg-white/5"
               >
                 {t(link.key)}
@@ -154,7 +180,7 @@ const Navbar = () => {
                 {navLinks.map((link) => (
                   <Link
                     key={link.key}
-                    to={link.to}
+                    to={localizedPath(link.to)}
                     onClick={() => setMenuOpen(false)}
                     className="text-slate-300 hover:text-orange-500 hover:bg-white/5 px-4 py-3 rounded-lg text-sm font-medium transition-colors duration-200"
                   >
