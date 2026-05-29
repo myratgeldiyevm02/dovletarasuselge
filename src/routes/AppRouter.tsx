@@ -8,22 +8,32 @@ const Contact = lazy(() => import("../pages/Contact"))
 const Services = lazy(() => import("../pages/Services"))
 const NotFound = lazy(() => import("../pages/NotFound"))
 
+const children = [
+  { index: true, element: <Home /> },
+  { path: "about", element: <About /> },
+  { path: "contact", element: <Contact /> },
+  { path: "services", element: <Services /> },
+]
+
+const withSuspense = (element: React.ReactNode) => (
+  <Suspense fallback={<div className="min-h-screen bg-[#0a0f1e]" />}>
+    {element}
+  </Suspense>
+)
+
 export const router = createBrowserRouter([
   {
-    path: "/:lang?",
-    element: (
-      <Suspense fallback={<div className="min-h-screen bg-[#0a0f1e]" />}>
-        <MainLayout />
-      </Suspense>
-    ),
-    children: [
-      { index: true, element: <Home /> },
-
-      { path: "about", element: <About /> },
-      { path: "contact", element: <Contact /> },
-      { path: "services", element: <Services /> },
-
-      { path: "*", element: <NotFound /> },
-    ],
+    path: "/",
+    element: withSuspense(<MainLayout />),
+    children,
+  },
+  {
+    path: "/:lang",
+    element: withSuspense(<MainLayout />),
+    children,
+  },
+  {
+    path: "*",
+    element: withSuspense(<NotFound />),
   },
 ])
